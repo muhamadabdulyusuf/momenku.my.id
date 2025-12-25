@@ -1,0 +1,4 @@
+# Core engine must be treated as read-only
+src/core/** linguist-generated
+src/policies/** linguist-generated
+src/bootstrap/** linguist-generated

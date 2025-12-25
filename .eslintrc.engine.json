@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": ["src/core/**"],
+            "message": "Core engine is read-only. Do not import directly."
+          }
+        ]
+      }
+    ]
+  }
+}

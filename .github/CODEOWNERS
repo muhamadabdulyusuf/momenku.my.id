@@ -1,0 +1,13 @@
+# Core engine ownership
+/src/core/        @architecture-team
+/src/policies/    @architecture-team
+/src/bootstrap/   @architecture-team
+
+# Security & guards
+/src/core/guards/ @security-team
+
+# Jobs & infra
+/src/jobs/        @platform-team
+
+# Default
+* @engineering-team
