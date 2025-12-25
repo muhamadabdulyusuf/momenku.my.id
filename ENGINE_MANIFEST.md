@@ -1,22 +1,22 @@
 # MOMENTKU ENGINE MANIFEST
 
-This engine is designed as a long-living SaaS core.
+This repository contains a production-grade SaaS engine.
 
 ## Core Principles
-- Explicit over implicit
-- Engine > Feature
+- Engine-first architecture
 - Policy-driven business logic
-- Side effects only via adapters & jobs
+- Explicit workflow transitions
+- Side effects isolated via adapters & jobs
 
-## Non-Negotiable Rules
+## NON-NEGOTIABLE RULES
 - No business logic in UI
-- No direct external calls from services
-- No state mutation outside workflow engine
+- No direct DB access outside repositories
+- No external calls inside services
 - No permission checks outside guards & policies
 
-## Engine Status
-- Architecture: FINAL
+## Status
+- Engine: FINAL
 - Core API: STABLE
-- Ready for Production Deployment
+- Deployment: READY
 
-Any violation of this manifest is considered a system risk.
+Violating these rules is considered a system risk.

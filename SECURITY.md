@@ -1,17 +1,14 @@
 # Security Policy
 
 ## Scope
-- Authentication & Authorization
+- Authentication & RBAC
 - Payment workflows
-- Invitation publishing system
+- Invitation publishing & access
 
-## Rules
-- All permissions enforced via RBAC
-- No direct database access outside repositories
-- All external calls via adapters
-
-## Incident Response
+## Enforcement
+- Guards & policies are mandatory
 - Feature flags for emergency shutdown
-- Monitoring & error ingestion enabled
+- Monitoring & audit endpoints enabled
 
-This system follows a defense-in-depth strategy.
+## Philosophy
+Defense in depth. Fail fast. No silent failure.

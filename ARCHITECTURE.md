@@ -1,17 +1,17 @@
-# Momentku Architecture Overview
+# Momentku Platform Architecture
 
-This system is designed as a modular, policy-driven SaaS platform.
+Momentku is built as a modular, policy-driven SaaS platform.
 
 ## Layers
 - Core Engine: Business rules & workflows
 - Modules: Feature-specific logic
 - Adapters: External integrations
-- Jobs: Async & side-effect processing
-- UI: Pure presentation layer
+- Jobs: Async side effects
+- UI: Presentation only
 
-## Design Philosophy
-- Engine-first, feature-second
-- Explicit contracts over convention
-- Side effects are isolated
+## Design Goals
+- Scale in features
+- Scale in team size
+- Minimize regression risk
 
-This architecture is intended to scale in team size and feature complexity.
+This architecture is designed to outlive individual contributors.
